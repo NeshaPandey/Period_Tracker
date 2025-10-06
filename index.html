@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Period Tracker</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+<body>
+    <header>
+        <h1>Period Tracker</h1>
+    </header>
+
+    <main>
+        <section id="tracker">
+            <h2>Track Your Period</h2>
+            <label for="period-date">Last Period Date:</label>
+            <input type="date" id="period-date">
+            <button id="save-date">Save Date</button>
+            <p id="next-period">Your next period date will appear here.</p>
+        </section>
+
+        <section id="mood">
+            <h2>Log Mood & Cravings</h2>
+            <textarea id="mood-input" placeholder="How do you feel today?"></textarea>
+            <button id="save-mood">Save Mood</button>
+            <div id="mood-log">
+                <h3>Your Moods & Cravings</h3>
+                <ul id="mood-list"></ul>
+            </div>
+        </section>
+    </main>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
